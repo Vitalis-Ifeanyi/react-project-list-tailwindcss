@@ -40,7 +40,7 @@ const Home = () => {
                 <div key={id} className="relative">
                   <img
                     src={imageMobile}
-                    srcSet={`${imageMobile} 640w, ${imageMobile} 800w, ${imageTab} 900w, ${image} 1204w`}
+                    srcSet={`${imageMobile} 800w, ${imageTab} 900w, ${image} 1204w`}
                     alt="productPicture"
                     className="w-full sm:w-80 rounded-lg"
                   />
