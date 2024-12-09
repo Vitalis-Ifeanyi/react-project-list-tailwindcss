@@ -41,7 +41,7 @@ const Home = () => {
                   <img
                     src={image}
                     srcSet={`${imageMobile} 640w, ${imageMobile} 800w, ${imageTab} 900w, ${image} 1204w`}
-                    sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 900px) 100vw, 33vw"
                     alt="productPicture"
                     className="w-full sm:w-80 rounded-lg"
                   />
